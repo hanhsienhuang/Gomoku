@@ -1,0 +1,23 @@
+div#board{
+    width: 600px;
+    height: 600px;
+    display: table;
+}
+div.grid_row{
+    display: table-row;
+}
+
+div.grid_cell{
+    width: 38px;
+    height: 38px;
+    border: solid 1px black;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 25px;
+    cursor: default;
+}
+div.grid_cell_hovered{
+    background-color: #eeeeee;
+    color: #aaaaaa;
+}
